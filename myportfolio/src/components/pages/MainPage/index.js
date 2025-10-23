@@ -1,13 +1,12 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
+import NavBar from '../Navbar';
 
 const Mainpage = () => {
   const Navigate = useNavigate();
   return (
     <>
-       <div >
-          Personal Blog
-       </div>
+       <NavBar />
        <div>
         <button onClick={()=>Navigate('/content')}>
            Content Page
