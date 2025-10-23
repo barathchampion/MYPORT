@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import Landing from './components/pages/landing/index';
 import Mainpage from './components/pages/MainPage';
+import Content from './components/pages/Content';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
       <Routes>
         <Route element={<Landing />} path='/'/>
         <Route element={<Mainpage />} path='/myportfolio'/>
+        <Route element={<Content />} path='/content'/>
       </Routes>
     </div>
   );

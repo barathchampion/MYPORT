@@ -106,18 +106,18 @@ const Wrapper = styled.div`
   .batman:hover:before {
     width: 100%;
   }
-  
-.bangers-uniquifier {
- font-family: "Port Lligat Sans", serif;
-  font-weight: 400;
-  font-style: normal;
-}
-.letr-spc{
-     letter-spacing: 1px;
-}
-     .spcr{
-     padding-left: 23px;
-     }
+
+  .bangers-uniquifier {
+    font-family: "Port Lligat Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .letr-spc {
+    letter-spacing: 1px;
+  }
+  .spcr {
+    padding-left: 23px;
+  }
 
   @keyframes expand-to-full-screen {
     0% {
