@@ -12,7 +12,7 @@ const Landing = () => {
     console.log("object");
 
     setTimeout(() => {
-      navigate("/myportfolio");
+      navigate("/home");
     }, 1000);
   };
 

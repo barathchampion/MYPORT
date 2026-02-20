@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
-const Wrapper = styled.div`
-
+const Controller = styled.div`
+ 
 `;
 
-export default Wrapper;
+export default Controller;
